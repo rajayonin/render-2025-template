@@ -1,2 +1,4 @@
-# render-2025-template
-Template for 2025 project
+# Template for render-2025
+
+This repository contains a template for the project assignment in the Computer
+Architecture course at Universidad Carlos III de Madrid.
