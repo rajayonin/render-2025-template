@@ -33,6 +33,7 @@
 				"cmake.configureOnOpen": true,
 				"cmake.generator": "Ninja Multi-Config",
 				"cmake.cmakePath": "/usr/bin/cmake",
+				"cmake.copyCompileCommands": "${workspaceFolder}/out/build/compile_commands.json",
 				// Clangd configuration as primary language server
 				"clangd.path": "/usr/bin/clangd-20",
 							"clangd.arguments": [
@@ -44,7 +45,7 @@
 								"--suggest-missing-includes",
 								"--background-index",
 								"--log=verbose",
-								"--compile-commands-dir=/workspace/out/build/default",
+								"--compile-commands-dir=/workspace/out/build",
 								"--query-driver=/usr/bin/g++-14,/usr/bin/clang++-20"
 							],
 				"clangd.onConfigChanged": "restart",
